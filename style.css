@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Soyuz Grotesk';
+    src: url('fonts/SoyuzGroteskBold.ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+/* img {
+    width: 20%;
+} */
+
+.square p {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: monospace;
+
+    margin: 25px;
+}
+
+.square {
+    width: 700px;
+    margin: 50px auto;
+    padding: 25px 25px 75px;
+    background-color: rgb(235, 255, 255);
+}
+
+.square img {
+    width: 100%;
+}
+
+
+
+
+
+
+.bnr {
+    margin: 50px auto;
+    padding: auto;
+    width: 1200px;
+    height: 540px;
+    background-color: #1690FD;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Soyuz Grotesk';
+}
+
+.bnr h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.bnr .img1 {
+    position: absolute;
+    top: 40px;
+    left: -80px;
+}
+
+.bnr .img2 {
+    position: absolute;
+    top: 80px;
+    right: -20px;
+}
+
+.bnr-top {
+    color: white;
+    position: absolute;
+    top: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.bnr-top .shk {
+    font-family: 'arial';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+
+
+.prj-wrapper {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+}
+.prj {
+    width: calc((100% - 40px) / 3);
+    display: block;
+}
+.prj-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;}
+.prj-img-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;}
+.prj-year {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-family: 'arial';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 8px;
+    Padding:10px 16px;
+    background-color: #ffffff;}
+
+.prj-txt {
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 15px;
+    margin-top: 10px;}
+
+.prj-txt1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: 'Soyuz Grotesk';
+}
+.prj-txt_pink {
+        color: #EE2B7A;
+}
+.prj-txt_yellow {
+        color: #E89B29;
+}    
+.prj-txt_blue {
+        color: #1690FD;
+}
+
+.prj-txt2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: 'arial';
+    margin-top: 5px;
+}
+
+.prj-txt3 {
+    color: #7b7b7b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: 'arial';
+    margin-top: 10px;
+}
+
+.prj-txt4 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: 'arial';
+    margin-top: 5px;
+}
+
+
+
+
+
+.page-title {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1198px;
+    top: 30px;
+    left: 200px;
+    color: #1690FD;
+}
+
+.page-fio {
+    font-family: 'Soyuz Grotesk';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.page-shk {
+    font-family: 'arial';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.page-info {
+    display: flex;
+}
